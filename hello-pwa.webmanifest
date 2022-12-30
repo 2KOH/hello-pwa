@@ -1,0 +1,16 @@
+{
+  "name": "Hello Progressive Web App",
+  "short_name": "Hello PWA",
+  "description": "description",
+  "icons": [
+    {
+      "src": "icon320.png",
+      "sizes": "320x320",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "index.html",
+  "display": "fullscreen",
+  "theme_color": "#ffffff",
+  "background_color": "#ffffff"
+}

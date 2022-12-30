@@ -1,0 +1,13 @@
+<!doctype html>
+<meta charset="utf-8">
+<title>Hello Progressive Web Apps</title>
+<link rel="manifest" href="js13kpwa.webmanifest">
+<script>
+if ('serviceWorker' in navigator) {
+	navigator.serviceWorker.register('sw.js')
+}
+</script>
+
+<div>
+	Hello Progressive Web Apps
+</div>
