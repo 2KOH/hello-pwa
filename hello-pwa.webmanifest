@@ -6,11 +6,13 @@
     {
       "src": "icon320.png",
       "sizes": "320x320",
-      "type": "image/png"
+      "type": "image/png",
+			"purpose": "maskable any"
     }
   ],
   "start_url": "index.html",
   "display": "fullscreen",
   "theme_color": "#ffffff",
-  "background_color": "#ffffff"
+  "background_color": "#ffffff",
+	"scope": "/"
 }
