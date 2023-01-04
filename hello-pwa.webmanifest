@@ -26,5 +26,5 @@
   "display": "fullscreen",
   "theme_color": "#ffffff",
   "background_color": "#ffffff",
-	"scope": "/"
+	"scope": "."
 }
