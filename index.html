@@ -1,21 +1,14 @@
 <!doctype html>
 <meta charset="utf-8">
 <title>Hello Progressive Web Apps</title>
-<meta name="robots" content="noindex,nofollow">
-<meta name="robots" content="noarchive">
-<meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1, maximum-scale=1, viewport-fit=cover">
-<meta name="format-detection" content="telephone=no">
-<link rel="icon" type="image/png" href="icon320.png">
 <link rel="manifest" href="hello-pwa.webmanifest">
-<meta name="apple-mobile-web-app-capable" content="yes">
-<link href="icon320.png" rel="apple-touch-icon">
 
 <script>
 if ('serviceWorker' in navigator) {
-	navigator.serviceWorker.register('sw.js').then(reg => console.log('SW registered.', reg ))
+	navigator.serviceWorker.register('sw.js')
 }
 </script>
 
 <div>
-	ハローウェブプログレッシブウェブアプリ8
+	ハローウェブプログレッシブウェブアプリ9
 </div>
