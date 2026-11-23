@@ -1,0 +1,17 @@
+<!doctype html>
+<meta charset="utf-8">
+<title>Test</title>
+
+<div>
+	<input type="text" id="url">
+	<button id="ok">OK</button>
+</div>
+
+<script>
+document.querySelector("#ok").addEventListener("click", async () => {
+	const url = document.querySelector("#url").textContent
+	const result = await fetch(url)
+	const text = await result.text()
+	alert(text)
+})
+</script>
